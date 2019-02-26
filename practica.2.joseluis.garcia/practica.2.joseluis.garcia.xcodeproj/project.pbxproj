@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AB1A82A2225C88E0098D174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A8292225C88E0098D174 /* AppDelegate.swift */; };
+		1AB1A82C2225C88E0098D174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A82B2225C88E0098D174 /* ViewController.swift */; };
+		1AB1A82F2225C88E0098D174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1A82D2225C88E0098D174 /* Main.storyboard */; };
+		1AB1A8312225C88E0098D174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1A8302225C88E0098D174 /* Assets.xcassets */; };
+		1AB1A8342225C88E0098D174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1A8322225C88E0098D174 /* LaunchScreen.storyboard */; };
+		1AB1A83F2225C88E0098D174 /* practica_2_joseluis_garciaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A83E2225C88E0098D174 /* practica_2_joseluis_garciaTests.swift */; };
+		1AB1A84A2225C88E0098D174 /* practica_2_joseluis_garciaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A8492225C88E0098D174 /* practica_2_joseluis_garciaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AB1A83B2225C88E0098D174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB1A81E2225C88E0098D174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB1A8252225C88E0098D174;
+			remoteInfo = practica.2.joseluis.garcia;
+		};
+		1AB1A8462225C88E0098D174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB1A81E2225C88E0098D174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB1A8252225C88E0098D174;
+			remoteInfo = practica.2.joseluis.garcia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AB1A8262225C88E0098D174 /* practica.2.joseluis.garcia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practica.2.joseluis.garcia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB1A8292225C88E0098D174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AB1A82B2225C88E0098D174 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AB1A82E2225C88E0098D174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AB1A8302225C88E0098D174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AB1A8332225C88E0098D174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AB1A8352225C88E0098D174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB1A83A2225C88E0098D174 /* practica.2.joseluis.garciaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practica.2.joseluis.garciaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB1A83E2225C88E0098D174 /* practica_2_joseluis_garciaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica_2_joseluis_garciaTests.swift; sourceTree = "<group>"; };
+		1AB1A8402225C88E0098D174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB1A8452225C88E0098D174 /* practica.2.joseluis.garciaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practica.2.joseluis.garciaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB1A8492225C88E0098D174 /* practica_2_joseluis_garciaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica_2_joseluis_garciaUITests.swift; sourceTree = "<group>"; };
+		1AB1A84B2225C88E0098D174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB1A8232225C88E0098D174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB1A8372225C88E0098D174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB1A8422225C88E0098D174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB1A81D2225C88E0098D174 = {
+			isa = PBXGroup;
+			children = (
+				1AB1A8282225C88E0098D174 /* practica.2.joseluis.garcia */,
+				1AB1A83D2225C88E0098D174 /* practica.2.joseluis.garciaTests */,
+				1AB1A8482225C88E0098D174 /* practica.2.joseluis.garciaUITests */,
+				1AB1A8272225C88E0098D174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AB1A8272225C88E0098D174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1A8262225C88E0098D174 /* practica.2.joseluis.garcia.app */,
+				1AB1A83A2225C88E0098D174 /* practica.2.joseluis.garciaTests.xctest */,
+				1AB1A8452225C88E0098D174 /* practica.2.joseluis.garciaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AB1A8282225C88E0098D174 /* practica.2.joseluis.garcia */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1A8292225C88E0098D174 /* AppDelegate.swift */,
+				1AB1A82B2225C88E0098D174 /* ViewController.swift */,
+				1AB1A82D2225C88E0098D174 /* Main.storyboard */,
+				1AB1A8302225C88E0098D174 /* Assets.xcassets */,
+				1AB1A8322225C88E0098D174 /* LaunchScreen.storyboard */,
+				1AB1A8352225C88E0098D174 /* Info.plist */,
+			);
+			path = practica.2.joseluis.garcia;
+			sourceTree = "<group>";
+		};
+		1AB1A83D2225C88E0098D174 /* practica.2.joseluis.garciaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1A83E2225C88E0098D174 /* practica_2_joseluis_garciaTests.swift */,
+				1AB1A8402225C88E0098D174 /* Info.plist */,
+			);
+			path = practica.2.joseluis.garciaTests;
+			sourceTree = "<group>";
+		};
+		1AB1A8482225C88E0098D174 /* practica.2.joseluis.garciaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1A8492225C88E0098D174 /* practica_2_joseluis_garciaUITests.swift */,
+				1AB1A84B2225C88E0098D174 /* Info.plist */,
+			);
+			path = practica.2.joseluis.garciaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AB1A8252225C88E0098D174 /* practica.2.joseluis.garcia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB1A84E2225C88E0098D174 /* Build configuration list for PBXNativeTarget "practica.2.joseluis.garcia" */;
+			buildPhases = (
+				1AB1A8222225C88E0098D174 /* Sources */,
+				1AB1A8232225C88E0098D174 /* Frameworks */,
+				1AB1A8242225C88E0098D174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = practica.2.joseluis.garcia;
+			productName = practica.2.joseluis.garcia;
+			productReference = 1AB1A8262225C88E0098D174 /* practica.2.joseluis.garcia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AB1A8392225C88E0098D174 /* practica.2.joseluis.garciaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB1A8512225C88E0098D174 /* Build configuration list for PBXNativeTarget "practica.2.joseluis.garciaTests" */;
+			buildPhases = (
+				1AB1A8362225C88E0098D174 /* Sources */,
+				1AB1A8372225C88E0098D174 /* Frameworks */,
+				1AB1A8382225C88E0098D174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB1A83C2225C88E0098D174 /* PBXTargetDependency */,
+			);
+			name = practica.2.joseluis.garciaTests;
+			productName = practica.2.joseluis.garciaTests;
+			productReference = 1AB1A83A2225C88E0098D174 /* practica.2.joseluis.garciaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AB1A8442225C88E0098D174 /* practica.2.joseluis.garciaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB1A8542225C88E0098D174 /* Build configuration list for PBXNativeTarget "practica.2.joseluis.garciaUITests" */;
+			buildPhases = (
+				1AB1A8412225C88E0098D174 /* Sources */,
+				1AB1A8422225C88E0098D174 /* Frameworks */,
+				1AB1A8432225C88E0098D174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB1A8472225C88E0098D174 /* PBXTargetDependency */,
+			);
+			name = practica.2.joseluis.garciaUITests;
+			productName = practica.2.joseluis.garciaUITests;
+			productReference = 1AB1A8452225C88E0098D174 /* practica.2.joseluis.garciaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AB1A81E2225C88E0098D174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Universidad Politecnica de gómez Palacio";
+				TargetAttributes = {
+					1AB1A8252225C88E0098D174 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1AB1A8392225C88E0098D174 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AB1A8252225C88E0098D174;
+					};
+					1AB1A8442225C88E0098D174 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1AB1A8252225C88E0098D174;
+					};
+				};
+			};
+			buildConfigurationList = 1AB1A8212225C88E0098D174 /* Build configuration list for PBXProject "practica.2.joseluis.garcia" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AB1A81D2225C88E0098D174;
+			productRefGroup = 1AB1A8272225C88E0098D174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AB1A8252225C88E0098D174 /* practica.2.joseluis.garcia */,
+				1AB1A8392225C88E0098D174 /* practica.2.joseluis.garciaTests */,
+				1AB1A8442225C88E0098D174 /* practica.2.joseluis.garciaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB1A8242225C88E0098D174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB1A8342225C88E0098D174 /* LaunchScreen.storyboard in Resources */,
+				1AB1A8312225C88E0098D174 /* Assets.xcassets in Resources */,
+				1AB1A82F2225C88E0098D174 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB1A8382225C88E0098D174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB1A8432225C88E0098D174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB1A8222225C88E0098D174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB1A82C2225C88E0098D174 /* ViewController.swift in Sources */,
+				1AB1A82A2225C88E0098D174 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB1A8362225C88E0098D174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB1A83F2225C88E0098D174 /* practica_2_joseluis_garciaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB1A8412225C88E0098D174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB1A84A2225C88E0098D174 /* practica_2_joseluis_garciaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AB1A83C2225C88E0098D174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB1A8252225C88E0098D174 /* practica.2.joseluis.garcia */;
+			targetProxy = 1AB1A83B2225C88E0098D174 /* PBXContainerItemProxy */;
+		};
+		1AB1A8472225C88E0098D174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB1A8252225C88E0098D174 /* practica.2.joseluis.garcia */;
+			targetProxy = 1AB1A8462225C88E0098D174 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AB1A82D2225C88E0098D174 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB1A82E2225C88E0098D174 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AB1A8322225C88E0098D174 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB1A8332225C88E0098D174 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AB1A84C2225C88E0098D174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AB1A84D2225C88E0098D174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AB1A84F2225C88E0098D174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = practica.2.joseluis.garcia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ochoa.practica-2-joseluis-garcia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AB1A8502225C88E0098D174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = practica.2.joseluis.garcia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ochoa.practica-2-joseluis-garcia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AB1A8522225C88E0098D174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = practica.2.joseluis.garciaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ochoa.practica-2-joseluis-garciaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practica.2.joseluis.garcia.app/practica.2.joseluis.garcia";
+			};
+			name = Debug;
+		};
+		1AB1A8532225C88E0098D174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = practica.2.joseluis.garciaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ochoa.practica-2-joseluis-garciaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practica.2.joseluis.garcia.app/practica.2.joseluis.garcia";
+			};
+			name = Release;
+		};
+		1AB1A8552225C88E0098D174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = practica.2.joseluis.garciaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ochoa.practica-2-joseluis-garciaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = practica.2.joseluis.garcia;
+			};
+			name = Debug;
+		};
+		1AB1A8562225C88E0098D174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = practica.2.joseluis.garciaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ochoa.practica-2-joseluis-garciaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = practica.2.joseluis.garcia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB1A8212225C88E0098D174 /* Build configuration list for PBXProject "practica.2.joseluis.garcia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB1A84C2225C88E0098D174 /* Debug */,
+				1AB1A84D2225C88E0098D174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB1A84E2225C88E0098D174 /* Build configuration list for PBXNativeTarget "practica.2.joseluis.garcia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB1A84F2225C88E0098D174 /* Debug */,
+				1AB1A8502225C88E0098D174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB1A8512225C88E0098D174 /* Build configuration list for PBXNativeTarget "practica.2.joseluis.garciaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB1A8522225C88E0098D174 /* Debug */,
+				1AB1A8532225C88E0098D174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB1A8542225C88E0098D174 /* Build configuration list for PBXNativeTarget "practica.2.joseluis.garciaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB1A8552225C88E0098D174 /* Debug */,
+				1AB1A8562225C88E0098D174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AB1A81E2225C88E0098D174 /* Project object */;
+}
